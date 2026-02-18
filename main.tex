@@ -5,7 +5,7 @@
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
-
+\usepackage{lmodern}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -148,7 +148,9 @@
     \text{\faFlag} U.S. Citizen
 \end{center}
 
-
+\begin{center}
+\textit{Driven Computer Engineering student at Georgia Tech pursuing concentrations in Cybersecurity and Systems Architecture. Seeking full-stack DevOps roles with a focused on Free, Libre, and Open-Source development.}
+\end{center}
 
 %----------- EDUCATION -----------
 
@@ -160,7 +162,7 @@
       {Georgia Institute of Technology
       % \normalfont{(Admission rate: 0.85\%)}
       }{Atlanta, Georgia}
-      {B.Sc. in Computer Engineering; Fall 2024 \textbf{HOPE GPA: 3.65/4.00}}{May 2022 \textbf{--} December 2026 (Expected)}
+      {B.Sc. in Computer Engineering; Fall 2024 \textbf{GPA: 3.0/4.00}}{May 2022 \textbf{--} December 2026 (Expected)}
       {Concentrations: Cyber Security, \& Systems/Architecture}
       {}
     
@@ -172,11 +174,6 @@
     
   \resumeSubHeadingListEnd
 
-
-
-
-
-
 %----------- WORK EXPERIENCE -----------
 
 \section{Work Experience}
@@ -184,23 +181,41 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-    {Georgia Institute of Technology}{Atlanta, Georgia}
-    {Undergraduate Teaching Assistant: CEE 4803/LMC 4813 – Art \& Generative AI}{January 2025 \textbf{--} Present}
+    {NBRS Management, LLC}{Atlanta, Georgia}
+    {Full-Stack DevOps Engineer}{January 2025 \textbf{--} Present}
+    \resumeItemListStart
+    \resumeItem{Developed backend Node.js services for user authentication and management using JavaScript and TypeScript.}
+    \resumeItem{Redesigned the company website using Tailwind CSS, converting it to a static architecture that reduced annual hosting costs by hundreds of dollars while improving responsiveness and overall visual appeal.}
+    \resumeItem{Collaborated with a multidisciplinary team of engineers, designers, and videographers to deliver cohesive and high-impact full stack web solutions.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Georgia Institute of Technology - College of Engineering}{Atlanta, Georgia}
+    {Undergraduate Teaching Assistant: Art \& Generative AI}{January 2025 \textbf{--} December 2025}
       \resumeItemListStart
         \resumeItem{Collaborated with professors Dr. Francesco Fedele and Dr. Mark Leibert to prepare and deliver instructional materials on Generative AI applications in art, music, storytelling, and brainwave visualization.}
         \resumeItem{Provided individualized student support through office hours, email and zoom correspondence, and additional resources, ensuring comprehension of AI concepts and practical implementation.}
         \resumeItem{Led study sessions to reinforce key topics, foster collaborative learning, and demonstrate real-world applications of generative AI techniques.}
-        \resumeItem{Developed and optimized AI-driven code, including projects utilizing Google Gemini, Meta's MusicGen, Deepseek's Janus-Pro, and ByteDance's AnimateDiff-Lightning, implemented for instructional use and student exploration.}
+        \resumeItem{Developed a copyleft, free and open-source textbook and interactive website to enhance student learning through active engagement in collaboration with Dr. Francesco Fedele.}
       \resumeItemListEnd
 
-    \resumeSubheading
+\resumeSubheading
+    {Georgia Institute of Technology - Open Source Program Office}{Atlanta, Georgia}
+    {Open-Source Software Development Intern}{May 2025 \textbf{--} July 2025}
+    \resumeItemListStart
+    \resumeItem{Authored and improved documentation for multiple free and open-source projects, reaching thousands of users and downloads, in collaboration with a geographically distributed, multinational team.}
+    \resumeItem{Developed software leveraging modern local LLM hosting and inference techniques using vLLM.}
+    \resumeItem{Created onboarding and development documentation to support new interns, covering open-source workflows, Git version control, and asynchronous remote software development best practices.}
+\resumeItemListEnd
+
+\resumeSubheading
     {Turbine Logic}{Atlanta, Georgia}
     {Engineering Analyst Intern}{January 2025 \textbf{--} March 2025}
     \resumeItemListStart
     \resumeItem{Supported the implementation and certification of cybersecurity requirements, including compliance with government standards and other industry regulations, to enhance the organization's security posture.}
     \resumeItem{Collaborated with cross-functional teams to assess cybersecurity risks and develop mitigation strategies, enhancing protection against potential vulnerabilities and threats.}
     \resumeItem{Contributed to technical documentation for server configurations, security policies, and compliance procedures to support ongoing audits and certification processes.}
-    \resumeItemListEnd
+\resumeItemListEnd
 
 \resumeSubheading
     {Valmet, Inc.}{Atlanta, Georgia}
@@ -365,7 +380,7 @@
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Programming:}{ Java, Python, Rust, C, C++, C\#, Go, QT/GTK, JavaScript, TypeScript, HTML, CSS, PHP, Shell, Swift, Verilog, VHDL, AMD64/MIPS/RISC-V Assembly} \\ \vspace{3pt}
+        \textbf{Programming:}{ Java, Python, Rust, C, C++, C\#, Go, QT/GTK, JavaScript, TypeScript, HTML, CSS, NodeJS, PHP, Shell, Swift, Verilog, VHDL, AMD64/MIPS/RISC-V Assembly} \\ \vspace{3pt}
         
         \textbf{Technologies:}{ Git, Arduino, Linux, Berkeley Software Distributions (BSD), Data Recovery, Digital forensics, Reverse Engineering } \\ \vspace{3pt}
         
@@ -397,9 +412,9 @@
 
 \section{Organizations}
   \resumeSubHeadingListStart
-    
-    \resumeOrganizationHeading
-     {Institute of Electrical and Electronics Engineers (IEEE)}{May 2023 -- Present}{Student Member} \\
+
+      \resumeOrganizationHeading
+     {LibreTech Collective @ Georgia Tech}{November 2025 -- Present}{Founder \& President of Georgia Tech's only student club for free \& open-source!} \\
      \vspace{3pt}
     
   \resumeSubHeadingListEnd
@@ -421,7 +436,10 @@
     \resumeSubHeadingListStart
 
     \resumeOrganizationHeading
-    {Dr. Francesco Fedele -- Professor, College of Engineering}{fedele@gatech.edu}{Georgia Institute of Technology -- Current Instructor of Record, and Faculty Research Supervisor}
+    {Dr. Jeffrey Young -- Director, Georiga Tech Open Source Programming Office}{jyoung9@gatech.edu}{Georgia Institute of Technology -- Former Employer and Supervisor}
+
+    \resumeOrganizationHeading
+    {Dr. Francesco Fedele -- Professor, College of Engineering}{fedele@gatech.edu}{Georgia Institute of Technology -- Instructor of Record, and Faculty Research Supervisor}
   
     \resumeOrganizationHeading
     {Travis Smith -- Attorney at Law}{TSmith@fostersmith.law}{Foster \& Smith, LLC -- Former Employer and Supervisor}
