@@ -1,7 +1,7 @@
 %-------------------------
 % Resume Written in LateX
 % Author : Kenneth (Alex) Jenkins
-% License : MIT
+% License : Creative Commons Attribution-NoDerivatives 4.0 International
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -18,7 +18,6 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{hyphenat}
-\usepackage{fontawesome}
 \usepackage{amsmath}
 \input{glyphtounicode}
 
@@ -42,11 +41,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-.75in}
+\addtolength{\textheight}{1.5in}
 
 \urlstyle{same}
 
@@ -74,7 +73,7 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
@@ -83,7 +82,7 @@
 
 \newcommand{\resumeSubSubheading}[2]{
     \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -91,7 +90,7 @@
 
 \newcommand{\resumeEducationHeading}[6]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
       \textit{\small#5} & \textit{\small #6} \\
@@ -101,7 +100,7 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -109,7 +108,7 @@
 
 \newcommand{\resumeOrganizationHeading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textit{\small #2} \\
       \textit{\small#3}
     \end{tabular*}\vspace{-7pt}
@@ -119,9 +118,9 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.12in]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
@@ -135,21 +134,19 @@
 \begin{center}
     \textbf{\Huge \scshape Kenneth Alexander Jenkins} \\ \vspace{3pt}
     \small
-    \faMobile \hspace{.5pt} \href{tel:4703178338}{+14703178338}
+  +1-470-317-8338
     $|$
-    \faAt \hspace{.5pt} \href{mailto:kajenkins100@gmail.com}{kajenkins100@gmail.com}
+  kajenkins100@gmail.com
     $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/rockenman1234}{GitHub}
+  alexj.io
     $|$
-    \faGlobe \hspace{.5pt} \href{https://alexj.io}{Portfolio}
+  Atlanta, Georgia
     $|$
-    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Georgia+Institute+of+Technology/@33.7756178,-84.396285,15z/data=!4m6!3m5!1s0x88f5048aebc34fe3:0xb52ad03e3ad8c50f!8m2!3d33.7756178!4d-84.396285!16zL20vMGYxbmw}{Atlanta, Georgia}
-    $|$
-    \text{\faFlag} U.S. Citizen
+  U.S. Citizen
 \end{center}
 
 \begin{center}
-\textit{Driven Computer Engineering student at Georgia Tech pursuing concentrations in Cybersecurity and Systems Architecture. Seeking full-stack DevOps roles with a focused on Free, Libre, and Open-Source development.}
+\textit{Fourth-year B.S. Computer Engineering student pursuing concentrations in Cybersecurity and Systems Architecture. Seeking Summer 2026 internships in full-stack DevOps roles with a focus on Free, Libre, and Open-Source development.}
 \end{center}
 
 %----------- EDUCATION -----------
@@ -162,7 +159,7 @@
       {Georgia Institute of Technology
       % \normalfont{(Admission rate: 0.85\%)}
       }{Atlanta, Georgia}
-      {B.Sc. in Computer Engineering; Fall 2024 \textbf{GPA: 3.0/4.00}}{May 2022 \textbf{--} December 2026 (Expected)}
+      {B.Sc. in Computer Engineering; Spring 2026 \textbf{GPA: 3.0/4.00}}{May 2022 \textbf{--} December 2026 (Expected)}
       {Concentrations: Cyber Security, \& Systems/Architecture}
       {}
     
@@ -283,11 +280,11 @@
     {Fedele\textunderscore AI Research Group}{Georgia Institute of Technology}
     {Undergraduate Research Assistant}{August 2024 \textbf{--} Present}
     \resumeItemListStart
-        \resumeItem{Developed and optimized generative AI models, including Google Gemini, Meta's MusicGen, Deepseek's Janus-Pro, and ByteDance's AnimateDiff-Lightning, for applications in AI-driven performance art, storytelling, and real-time creative generation.}$|$ \emph{\href{https://github.gatech.edu/Fedele-AI/Art_and_AI}{\color{blue}GitHub}}{}
+        \resumeItem{Developed and optimized generative AI models, including Google Gemini, Meta's MusicGen, Deepseek's Janus-Pro, and ByteDance's AnimateDiff-Lightning, for applications in AI-driven performance art, storytelling, and real-time creative generation.}
         \resumeItem{Created and deployed coding tutorials to support engineering education initiatives at Georgia Tech, improving student learning outcomes through AI-powered creative tools and computational art techniques.}
         \resumeItem{Designed and implemented software enabling seamless communication with Georgia Tech's newly opened AI Makerspace, allowing efficient model deployment, GPU allocation, and remote execution of AI-driven artistic generation.}
         \resumeItem{Designed and developed a full-stack application enabling users to interact with custom-built and fine-tuned Transformer AI models with PyTorch and QT, facilitating AI-driven education and research.}
-        \resumeItem{Engineered a system integrating EEG data from a brain-computer interface (BCI) to generate dynamic visual art and harmonic music in real time, utilizing live brainwave data for immersive AI-assisted performances.} $|$ \emph{\href{https://github.gatech.edu/kjenkins60/MUSE_Research_Group}{\color{blue}GitHub}}{}
+        \resumeItem{Engineered a system integrating EEG data from a brain-computer interface (BCI) to generate dynamic visual art and harmonic music in real time, utilizing live brainwave data for immersive AI-assisted performances.}
     \resumeItemListEnd
 
   
@@ -295,24 +292,24 @@
       {Mathematics Research Projects}{Clayton State University}
       {Undergraduate Research Assistant}{August 2022 \textbf{--} May 2023}
         \resumeItemListStart
-            \resumeItem{ Newtons Method \textbf{--} A Python program written to demonstrate Newton's Method of finding roots.} $|$ \emph{\href{https://github.com/rockenman1234/newtonsmethod}{\color{blue}GitHub}}{}
-            \resumeItem{ Java Math Iterator \textbf{--} A Java program written to demonstrate computational iteration.} $|$ \emph{\href{https://github.com/rockenman1234/java_math_integrator}{\color{blue}GitHub}}{}
-            \resumeItem{ Calculus Cruncher \textbf{--} A customizable math flashcard web app, featuring key terms and definitions.} $|$ \emph{\href{https://github.com/rockenman1234/Calculus_Cruncher}{\color{blue}GitHub}}{}
+            \resumeItem{ Newtons Method \textbf{--} A Python program written to demonstrate Newton's Method of finding roots.}
+            \resumeItem{ Java Math Iterator \textbf{--} A Java program written to demonstrate computational iteration.}
+            \resumeItem{ Calculus Cruncher \textbf{--} A customizable math flashcard web app, featuring key terms and definitions.}
         \resumeItemListEnd
         
     \resumeSubheading
     {Arts Conference Presentations}{}
-     {{\href{https://www.youtube.com/playlist?list=PLNIeiKhj4_QRKH-fXi5uLzfnXnkHhH3j4}{\color{Blue} GT Arts Exhibition}} \textbf{--} Georgia Institute of Technology}{October 2024}
+    {{GT Arts Exhibition} \textbf{--} Georgia Institute of Technology}{October 2024}
     \resumeItemListStart
         \resumeItem{ Muse\textunderscore AI Research Group \textbf{--} Led the development of an innovative project integrating AI, neuroscience, and art into a seamless, interactive platform for live dance performances, utilizing the Muse 2, an affordable consumer-grade brain-computer interface (BCI).}
     \resumeItemListEnd
         \resumeSubheading
         {Research Conference Presentations}{} %This produces a blank line
-        {{\href{https://github.com/rockenman1234/Capstone-Presentations/blob/main/Clayton_State_University/Metacognition/Manifest_SSC-2023.pdf}{\color{Blue} Student Success Conference}} \textbf{--} Clayton State University}{April 2023}
+        {{Student Success Conference} \textbf{--} Clayton State University}{April 2023}
         \resumeItemListStart
-            \resumeItem{ Falling Into Viscosity \textbf{--} This project aimed to determine the viscosity of an unknown fluid by analyzing a video of a falling metal ball. The motion was tracked using the Open-source Tracker video analysis software. The results demonstrated the effectiveness of combining Tracker software with Stokes law for measuring fluid viscosity, providing a low-cost and accessible method with potential applications in research and industry. } $|$ \emph{\href{https://github.com/rockenman1234/Capstone-Presentations/blob/main/Clayton_State_University/Viscosity/Falling_Into_Viscosity.pdf}{\color{blue}View Poster}}{}
+            \resumeItem{ Falling Into Viscosity \textbf{--} This project aimed to determine the viscosity of an unknown fluid by analyzing a video of a falling metal ball. The motion was tracked using the Open-source Tracker video analysis software. The results demonstrated the effectiveness of combining Tracker software with Stokes law for measuring fluid viscosity, providing a low-cost and accessible method with potential applications in research and industry. }
             
-            \resumeItem{ Developing Metacognitive Skills \textbf{--} This project aimed to examine the impact of developing metacognitive planning skills on student success in online math classes. The objective was to contribute to the research on metacognition in virtual learning environments and provide insights for educators and students in developing effective metacognitive strategies for online learning.} $|$ \emph{\href{https://github.com/rockenman1234/Capstone-Presentations/blob/main/Clayton_State_University/Metacognition/Developing_Metacognitive_Skills(CSU).pdf}{\color{blue} View Poster}}{}
+            \resumeItem{ Developing Metacognitive Skills \textbf{--} This project aimed to examine the impact of developing metacognitive planning skills on student success in online math classes. The objective was to contribute to the research on metacognition in virtual learning environments and provide insights for educators and students in developing effective metacognitive strategies for online learning.}
         \resumeItemListEnd
     
   \resumeSubHeadingListEnd
@@ -342,7 +339,7 @@
     \resumeSubHeadingListStart
 
       \resumeProjectHeading
-        {\textbf{Argon} $|$ \emph{\href{https://github.com/rockenman1234/Argon2}{\color{blue}GitHub}}}{}
+        {\textbf{Argon}}{}
           \resumeItemListStart
             \resumeItem{A open-source GUI application designed to provide a stable and reliable platform for software developers and power users to get started using their Mac's as quickly and reliably as possible - without leaving a trace.}
             \resumeItem{Written in Go and Shell.}
@@ -350,21 +347,21 @@
     
       
       \resumeProjectHeading
-        {\textbf{FerrumCrimper} $|$ \emph{\href{https://github.com/rockenman1234/FerrumCrimper}{\color{blue}GitHub}}}{}
+        {\textbf{FerrumCrimper}}{}
           \resumeItemListStart
             \resumeItem{A Rust CLI tool for efficient file management, compression, and archival with support for multiple formats and secure data handling. }
             \resumeItem{Played a founding role in the development of a highly successful online resource, which has been downloaded/ accessed over 2,000 times by users worldwide.}
           \resumeItemListEnd
       
       \resumeProjectHeading
-        {\textbf{Buzz\_Off} $|$ \emph{\href{https://github.com/rockenman1234/Buzz_off}{\color{blue}GitHub}}}{}
+        {\textbf{Buzz\_Off}}{}
           \resumeItemListStart
             \resumeItem{A browser extension that replaces any text related to The university of Georgia with various taunts.}
             \resumeItem{After publication, it was viewed over 74K times in under 72 hours -- it currently has over 50+ active users.}
           \resumeItemListEnd
       
       \resumeProjectHeading
-        {\textbf{Fedora Tweaks} $|$ \emph{\href{https://github.com/rockenman1234/fedora-tweaks}{\color{blue}GitHub}}}{}
+        {\textbf{Fedora Tweaks}}{}
           \resumeItemListStart
             \resumeItem{A Bash script that is designed to make the RHEL based Fedora Linux distribution, more usable and user friendly as quickly as possible.}
             \resumeItem{The script has been used hundreds of times, and was forked into a larger repository of Linux scripts.}
@@ -436,10 +433,13 @@
     \resumeSubHeadingListStart
 
     \resumeOrganizationHeading
-    {Dr. Jeffrey Young -- Director, Georiga Tech Open Source Programming Office}{jyoung9@gatech.edu}{Georgia Institute of Technology -- Former Employer and Supervisor}
+    {Dr. Jeffrey Young -- Director, Georiga Tech Open Source Programming Office}{jyoung9@gatech.edu}{Georgia Institute of Technology -- Former Employer, Supervisor, and Club Faculty Mentor}
 
     \resumeOrganizationHeading
-    {Dr. Francesco Fedele -- Professor, College of Engineering}{fedele@gatech.edu}{Georgia Institute of Technology -- Instructor of Record, and Faculty Research Supervisor}
+    {Dr. Richard Stallman -- Chief GNUisance of the GNU Project}{rms@gnu.org}{Free Software Foundation -- Personal Mentor and Honorary Club Advisor}
+
+    \resumeOrganizationHeading
+    {Dr. Mark Leibert -- Professor, College of Liberal Arts}{mliebert3@gatech.edu}{Georgia Institute of Technology -- Instructor of Record, and Faculty Research Supervisor}
   
     \resumeOrganizationHeading
     {Travis Smith -- Attorney at Law}{TSmith@fostersmith.law}{Foster \& Smith, LLC -- Former Employer and Supervisor}
